@@ -17,18 +17,14 @@ Welcome to my **Portfolio Template**! This is a fully responsive, modern portfol
 - **Work Experience Section**: Share your job history and accomplishments.
 - **Contact Section**: Make it easy for others to get in touch with you.
 
-## Demo
-
-Feel free to explore the live demo here: [Live Demo](https://your-portfolio-link.com)
-
 ## Author
 
-This portfolio template was created by **Mohammad Shoaib**. 
+This portfolio template was created by **Himanshu Sharma**. 
 
 I built this template as a fun project to help fellow developers and creatives showcase their skills, projects, and experience in a clean, professional way. Feel free to use, modify, and contribute to this template as you wish!
 
-- **GitHub**: [@your-username](https://github.com/msshoaib08)
-- **LinkedIn**: [Mohammad Shoaib](https://www.linkedin.com/in/msshoaib)
+- **GitHub**: [@your-username](https://github.com/hsbhatra)
+- **LinkedIn**: [Mohammad Shoaib](https://www.linkedin.com/in/himanshu-sharma-243b20205)
 
 ---
 
