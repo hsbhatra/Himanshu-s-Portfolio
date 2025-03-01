@@ -24,7 +24,7 @@ This portfolio template was created by **Himanshu Sharma**.
 I built this template as a fun project to help fellow developers and creatives showcase their skills, projects, and experience in a clean, professional way. Feel free to use, modify, and contribute to this template as you wish!
 
 - **GitHub**: [@your-username](https://github.com/hsbhatra)
-- **LinkedIn**: [Mohammad Shoaib](https://www.linkedin.com/in/himanshu-sharma-243b20205)
+- **LinkedIn**: [Himanshu Sharma](https://www.linkedin.com/in/himanshu-sharma-243b20205)
 
 ---
 
