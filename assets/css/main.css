@@ -577,6 +577,54 @@ section {
 	animation: running-border 2s linear infinite;
 }
 
+/* Project Section (Multi-Image Slideshow) */
+/* Carousel Styles */
+.carousel {
+	position: relative;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	border-radius: 8px;
+}
+  
+.carousel-img {
+	display: none; /* Hide all by default */
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+  
+.carousel-img.active {
+	display: block; /* Show the current image */
+}
+  
+.carousel-btn {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: rgba(0,0,0,0.4);
+	border: none;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 20px;
+	border-radius: 50%;
+	z-index: 10;
+	transition: background 0.3s;
+}
+  
+.carousel-btn:hover {
+	background-color: rgba(0,0,0,0.7);
+}
+  
+.carousel-btn.prev {
+	left: 10px;
+}
+  
+.carousel-btn.next {
+	right: 10px;
+}
+
 /* Contact */
 .contact .contact-content {
 	margin-top: 60px;
