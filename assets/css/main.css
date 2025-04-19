@@ -625,6 +625,89 @@ section {
 	right: 10px;
 }
 
+/* Fullscreen Modal Overlay */
+.image-preview-modal {
+	display: none;
+	position: fixed;
+	top: 0; left: 0;
+	width: 100vw; height: 100vh;
+	background-color: rgba(0, 0, 0, 0.9);
+	justify-content: center;
+	align-items: center;
+	z-index: 9999;
+	overflow: hidden;
+  }
+  
+  .image-preview-modal.active {
+	display: flex;
+  }
+  
+  /* Transition animation (fade) */
+  .preview-img {
+	max-width: 90%;
+	max-height: 80vh;
+	border-radius: 8px;
+	box-shadow: 0 0 20px #000;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+  }
+  
+  .preview-img.show {
+	opacity: 1;
+  }
+  
+  /* Navigation arrows */
+  .modal-prev,
+  .modal-next {
+	position: absolute;
+	top: 50%;
+	font-size: 36px;
+	color: white;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	user-select: none;
+	transform: translateY(-50%);
+	transition: 0.3s;
+	z-index: 10;
+  }
+  
+  .modal-prev:hover,
+  .modal-next:hover {
+	color: var(--purple);
+  }
+  
+  .modal-prev {
+	left: 30px;
+  }
+  
+  .modal-next {
+	right: 30px;
+  }
+  
+  /* Close Button */
+  .close-btn {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+	z-index: 11;
+  }
+  
+  
+/* Close button */
+.close-btn {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+	user-select: none;
+}  
+
 /* Contact */
 .contact .contact-content {
 	margin-top: 60px;
